@@ -1,0 +1,60 @@
+[
+    {
+        "name": "phake/phake",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mlively/Phake.git",
+            "reference": "a066a242c8334160ec7a6ec9615918f242c796a7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mlively/Phake/zipball/a066a242c8334160ec7a6ec9615918f242c796a7",
+            "reference": "a066a242c8334160ec7a6ec9615918f242c796a7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "davedevelopment/hamcrest-php": "dev-master",
+            "doctrine/common": "2.3.*",
+            "ext-soap": "*",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "suggest": {
+            "davedevelopment/hamcrest-php": "Use Hamcrest matchers.",
+            "doctrine/common": "Allows mock annotations to use import statements for classes."
+        },
+        "time": "2013-04-24 15:06:37",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Phake": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Mike Lively",
+                "email": "m@digitalsandwich.com"
+            }
+        ],
+        "description": "The Phake mock testing library",
+        "homepage": "https://github.com/mlively/Phake",
+        "keywords": [
+            "mock",
+            "testing"
+        ]
+    }
+]
