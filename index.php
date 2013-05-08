@@ -9,7 +9,5 @@ require './vendor/autoload.php';
 
 $request = Misz\Http\Request::createUsingGlobalArrays();
 
-
-$response = new Misz\Http\Response($request->getMethod(), 404);
-$response->sendHeaders();
-$response->renderContent();
+$simpleApp = new \Misz\SimpleApp($request);
+$simpleApp->runAndRender();

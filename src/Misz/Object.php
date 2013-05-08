@@ -4,7 +4,7 @@ namespace Misz;
 class Object {
 
 	public static function getClass() {
-		return __CLASS__;
+		return get_called_class();
 	}
 
 }
